@@ -382,7 +382,7 @@ handleSubmit=()=>{
         <div className='content'>
           <div className='ui form'>
             <div className='field'>
-              <label>Title</label>
+              <label>Activity</label>
               <input 
               type='text' 
               value={this.state.title}
@@ -390,7 +390,7 @@ handleSubmit=()=>{
               />
             </div>
             <div className='field'>
-              <label>Project</label>
+              <label>Type of activity</label>
               <input 
               type='text' 
               value={this.state.project}
